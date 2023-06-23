@@ -11,9 +11,9 @@ public class MainRestController {
     @GetMapping("/save")
     public String save(){
         Credential credential = new Credential();
-        credential.setUserName("Manas");
+        credential.setUserName("Shubhang");
         credential.setPassword("1234");
         credentialRepository.save(credential);
         return "new Cred added";
-    }
+    }s
 }
